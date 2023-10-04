@@ -3,7 +3,7 @@ package com.SDP.Strategy;
 public class GameCharacter {
     private String name;
     private IAttackBehavior attackBehavior;
-    public IMovementBehavior movementBehavior;
+    private IMovementBehavior movementBehavior;
 
     public GameCharacter(String name, IAttackBehavior attackBehavior, IMovementBehavior movementBehavior) {
         this.name = name;
